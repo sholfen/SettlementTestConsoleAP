@@ -17,7 +17,6 @@ namespace SettlementTestConsoleAP
         {
             _settlementLib = new SettlementLib();
             _sqlConnection = new SqlConnection(SQLConnectionString);
-            //_sqlConnection.Open();
         }
 
         private SqlConnection _sqlConnection = null;
